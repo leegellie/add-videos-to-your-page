@@ -1,0 +1,112 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Lee's Notes</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <h1>Lee's Notes  (Stage 3 - Work Session 1)</h1>
+	<h3>Stage 3</h3>
+	<ul class="menu">
+       	<li class="menu-button"><a href="#anchor1">Using Other People's Code</a></li>
+        <li class="menu-button"><a href="#anchor2">Abstraction</a></li>
+        <li class="menu-button"><a href="#anchor3">Object Oriented Programming</a></li>
+       	<li class="menu-button"><a href="#anchor4">Objects, Classes &amp; Instances</a></li>
+        <li class="menu-button"><a href="#anchor5">Methods &amp; Instance Variables</a></li>
+       	<li class="menu-button"><a href="#anchor6">Constructors</a></li>
+        <li class="menu-button"><a href="#anchor7">Constant Variables</a></li>
+        <li class="menu-button"><a href="#anchor8">Class Variables</a></li>
+       	<li class="menu-button"><a href="#anchor9">Pre-Existing Class Variables</a></li>
+        <li class="menu-button"><a href="#anchor10">Inheritance</a></li>
+        <li class="menu-button"><a href="#anchor11">Methods &amp; Method Overriding</a></li>
+	</ul>
+	<h3>Stage 3 &mdash; Summary</h3>
+	<ul class="menu">
+		<li class="menu-button"><a href="#anchor13">Summary for Stage 3</a></li>
+	</ul>
+	<div id="notes">
+		<div id="anchor1" class="sub-head"><h2>Notes for Stage 3</h2></div>
+		<article id="note0" class="note">
+			<h2>Using Other People's Code</h2>
+			<p>So much code has been written for so many things on the internet and for many, many programming languages. Much of it is shared for free and some at a cost. </p>
+    	    <p>To re-write every peice of code we needed to do every function would be terribly time consuming and frusturating. </p>
+        	<p>Borrowing code makes a programmers life much easier.</p>
+		</article>
+        <div id="anchor2" class="sub-head"></div>
+        <article id="note1" class="note">
+        	<h2>Abstraction</h2>
+            <p>Abstraction is the act of taking functions, statements, objects, or anything as possibilities or postulated items and writing the code to deal with what they may be, become or are not. </p>
+            <p>For example, if you had statement to &quot;Only eat 3 cereal bars a week!&quot; and you could then program a way to stop Objects (Cereal Bars) being executed (Eaten) more than a defined looped number of times (3) in a time timed period (Week). </p>
+            <p>You could make the input tell a computer how many of any object to give out over any time using one peice of code with different inputs with abstraction. </p>
+            <p>If you entered different inputs (2, drink, Cups of Juice, day) you could use the same code and it would be executed properly. </p>
+		</article>
+        <div id="anchor3" class="sub-head"></div>
+        <article id="note2" class="note">
+			<h2>Object Oriented Programming </h2>
+			<p>The basis of OOP is that you essentially concentrate your style of programming on the objects and data you want to manipulate, rather than the procedural programming that was classically used. </p>
+			<p>This then makes it possible to have many object that can be called or defined to manipulate what you want, when you want to... And not have to write or re-write the code for each step of every procedure. </p>
+			<p>Another big advantage of OOP is that it can call and use other objects (and data) much easier. This data can be manipulated or changed and when called the functionality can change.</p>
+		</article>
+        <div id="anchor4" class="sub-head"></div>
+        <article id="note3" class="note">
+			<h2>Objects, Classes &amp; Instances</h2>
+			<p><span class="quote">Objects</span> are bits of data that have a location in the memory of the program we are running or working with it. </p>
+			<p><span class="quote">Objects</span> can be variables, structured data or functions. <span class="quote">Objects</span> can be made and several others are pre-defined. The can be referenced, called upon and changed in your code.</p>
+			<p>In the case of &quot;<span class="quote">Classes</span>&quot; the object is the specific instance of that class. </p>
+			<p><span class="quote">Classes</span> are a new thing we learned about that have some exciting and very, very useful properties. </p>
+			<p>When we started we were just using functions. This was great and with changing variable you could make the functions do slightly different things... this was limiting and for more extensive programming would require a LOT of code writing. </p>
+			<p><span class="quote">Classes</span> are essentially &quot;preset&quot; functions. This means that there can be a whole set of functions assigned to help with a certain programming procedure. </p>
+			<p><span class="quote">Classes</span> also have a great feature of beign called and assigned a new <span class="quote">INSTANCE</span>. In this case each <span class="quote">instance</span> is given its own version of that class and can be used as <span class="quote">THAT instance</span> forever on. Unlike giving a function an alias. That <span class="quote">class</span> will no longer change if a another <span class="quote">instance</span> is made for it.  Only specific instruction to that <span class="quote">instance</span> will effect that <span class="quote">instance</span>. </p>
+			<p>You could have as many <span class="quote">instances</span> of that <span class="quote">class</span> as you want and all will operate independantly. </p>
+			<p>To create a new <span class="quote">instance</span> you only need to define a variable calling the <span class="quote">instance</span>. That variable will then be that <span class="quote">instance</span> of the <span class="quote">class</span>.</p>
+        </article>
+        <div id="anchor5" class="sub-head"></div>
+        <article id="note4" class="note">
+			<h2>Methods &amp; Instance Variables</h2>
+			<p><span class="quote">Methods</span> are functions in the <span class="quote">class</span> that can be called when using that <span class="quote">class</span>. They are written by defining them under the <span class="quote">class</span>. </p>
+			<p><span class="quote">Methods</span> are called by <span class="quote">Class.method()</span>.</p>
+			<p><span class="quote">Instance Variable</span> are the different variables that can be used by a <span class="quote">class</span>. This makes it so that you can call various variables again and again but can be different with each <span class="quote">instance.</span> They, like just about everything inside a <span class="quote">class</span> code, are started with <span class="quote_red">self</span> which tells the <span class="quote">class</span> the variable is to be used with the specific <span class="quote">instance</span> of that <span class="quote">class</span>. </p>
+			<p>So if you had a <span class="quote_red">.Building</span> <span class="quote">class</span> you could have <span class="quote_red">Building height</span>, <span class="quote_red">Building depth</span>, <span class="quote_red">building width</span>, <span class="quote_red">floor size</span>, <span class="quote_red">floor numbers</span>, etc. as <span class="quote">instance variables</span> and every time you called a new instance of that <span class="quote">class</span> you could pass it the variable for that instance and could make a different &quot;<span class="quote_red">Building</span>&quot; for each.</p>
+		</article>
+        <div id="anchor6" class="sub-head"></div>
+        <article id="note5" class="note">
+			<h2>Constructors</h2>
+			<p>Although this is not really gone over in the course, the <span class="quote">Constructor</span> is used in a class to create an <span class="quote">object</span>.  It readies that new <span class="quote">object</span>, with passed input if needed, for use. </p>
+			<p>It has to open a space in the memory to run the <span class="quote">Class</span>. It is started with <span class="quote_red">__init__</span> to initialize the space in the memory.</p>
+			<p>In our case this was also defining the main 'function' of our <span class="quote">class</span>. </p>
+		</article>
+        <div id="anchor7" class="sub-head"></div>
+        <article id="note6" class="note">
+			<h2>Constant Variables</h2>
+			<p><span class="quote">Constant variable</span> are variables that have been set and are unlikely to be changed. The Google Python Style Guide suggests making that variable in ALL CAPS. This help you know off hand which things will be the same every time you use them.</p>
+		</article>
+        <div id="anchor8" class="sub-head"></div>
+		<article id="note7" class="note">
+			<h2>Class Variables</h2>
+		    <p>When you set a variable in the base of your <span class="quote">class</span> it becomes valid and callable for all instances of that <span class="quote">class</span>. </p>
+        </article>
+        <div id="anchor9" class="sub-head"></div>
+        <article id="note8" class="note">
+			<h2>Pre-Existing Class Variables</h2>
+			<p>All Python <span class="quote">classes</span> come with some <span class="quote">pre-existing variables</span>.  These are useful in working with and debugging classes. </p>
+		</article>
+        <div id="anchor10" class="sub-head"></div>
+        <article id="note9" class="note">
+			<h2>Inheritance</h2>
+			<p><span class="quote">Inheritance</span> is where attributes, functions, etc., can be taken from other <span class="quote">classes</span> to be used in another <span class="quote">class</span> and/or into your final code. </p>
+		</article>
+        <div id="anchor11" class="sub-head"></div>
+		<article id="note10" class="note">
+			<h2>Methods &amp; Method Overriding</h2>
+	    	<p>A <span class="quote">method</span> is a function in a <span class="quote">class</span>. Sometimes you will have a <span class="quote">class</span> with a <span class="quote">method</span>, or function, defined in an <span class="quote">inherited class</span>. You may want it to show something else. In that case you just need to define the same <span class="quote">method</span> in the newer <span class="quote">class</span>. </p>
+		</article>
+		<div class="summation">
+			<div class="sub-head"><h1 id="anchor13">Summary for Stage 3 </h1></div>
+			<div class="text-block">
+       			<p><span class="summary">The </span><span class="quote">IF</span><span class="summary"> and </span><span class="quote">WHILE</span><span class="summary"> functions can be extremely useful and make life a lot easier for a programmer as you can automate when and for how long (or how many times) code steps get carried out.  Without them you would have to write code for every possible occurrence and it could be very lengthly and extensive to code.</span></p>
+           		<p><span class="summary">From counting to greeting according to time of day, these functions can make it very simple to code aspects that would otherwise take a lot of consideration and figuring.</span></p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
